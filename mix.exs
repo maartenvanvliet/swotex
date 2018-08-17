@@ -17,7 +17,7 @@ defmodule SwotEx.MixProject do
         maintainers: ["Maarten van Vliet"],
         licenses: ["MIT"],
         links: %{"GitHub" => "https://github.com/maartenvanvliet/swotex"},
-        files: ~w(LICENCE README.md lib mix.exs domains)
+        files: ~w(LICENSE README.md lib mix.exs domains)
       ],
       source_url: "https://github.com/maartenvanvliet/swotex",
       docs: [
