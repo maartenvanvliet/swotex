@@ -1,7 +1,7 @@
 defmodule SwotEx.MixProject do
   use Mix.Project
 
-  @version "1.0.0"
+  @version "1.0.1"
 
   def project do
     [
@@ -21,7 +21,7 @@ defmodule SwotEx.MixProject do
       ],
       source_url: "https://github.com/maartenvanvliet/swotex",
       docs: [
-        main: "README",
+        main: "readme",
         extras: ["README.md"]
       ]
     ]
