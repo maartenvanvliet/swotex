@@ -1,9 +1,11 @@
 # SwotEx
 
+[![Build Status](https://travis-ci.com/maartenvanvliet/swotex.svg?branch=master)](https://travis-ci.com/maartenvanvliet/swotex)
+
 Identify email addresses or domains names that belong to colleges or universities. Help automate the process of approving or rejecting academic discounts.
 
 
-This is a port of https://github.com/leereilly/swot See there for more information.
+This is a port of [Swot](https://github.com/leereilly/swot) See there for more information.
 
 The list of valid domains is far from complete. If any are missing, please file a PR. 
 

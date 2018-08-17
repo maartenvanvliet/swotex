@@ -11,12 +11,18 @@ defmodule SwotEx.MixProject do
       start_permanent: Mix.env() == :prod,
       deps: deps(),
       name: "SwotEx",
-      description: "Identify email addresses or domains names that belong to colleges or universities.",
+      description:
+        "Identify email addresses or domains names that belong to colleges or universities.",
       package: [
         maintainers: ["Maarten van Vliet"],
         licenses: ["MIT"],
-        links: %{"GitHub" => "https://github.com/lpil/mix-test.watch"},
-        files: ~w(LICENCE README.md lib mix.exs)
+        links: %{"GitHub" => "https://github.com/maartenvanvliet/swotex"},
+        files: ~w(LICENCE README.md lib mix.exs domains)
+      ],
+      source_url: "https://github.com/maartenvanvliet/swotex",
+      docs: [
+        main: "README",
+        extras: ["README.md"]
       ]
     ]
   end
