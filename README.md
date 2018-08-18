@@ -1,6 +1,7 @@
 # SwotEx
 
-[![Build Status](https://travis-ci.com/maartenvanvliet/swotex.svg?branch=master)](https://travis-ci.com/maartenvanvliet/swotex)
+[![Build Status](https://travis-ci.com/maartenvanvliet/swotex.svg?branch=master)](https://travis-ci.com/maartenvanvliet/swotex) [![Hex pm](http://img.shields.io/hexpm/v/swotex.svg?style=flat)](https://hex.pm/packages/swotex) [![Hex Docs](https://img.shields.io/badge/hex-docs-9768d1.svg)](https://hexdocs.pm/swotex) [![License](https://img.shields.io/badge/License-MIT-blue.svg)](https://opensource.org/licenses/MIT)
+
 
 Identify email addresses or domains names that belong to colleges or universities. Help automate the process of approving or rejecting academic discounts.
 
