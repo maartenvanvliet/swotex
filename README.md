@@ -12,8 +12,7 @@ The list of valid domains is far from complete. If any are missing, please file 
 
 ## Installation
 
-If [available in Hex](https://hex.pm/docs/publish), the package can be installed
-by adding `swotex` to your list of dependencies in `mix.exs`:
+The package can be installed by adding `swotex` to your list of dependencies in `mix.exs`:
 
 ```elixir
 def deps do
@@ -23,7 +22,28 @@ def deps do
 end
 ```
 
-Documentation can be generated with [ExDoc](https://github.com/elixir-lang/ex_doc)
-and published on [HexDocs](https://hexdocs.pm). Once published, the docs can
-be found at [https://hexdocs.pm/swotex](https://hexdocs.pm/swotex).
+## Usage
 
+```elixir
+
+iex> SwotEx.is_academic?("stanford.edu")
+true
+
+iex> SwotEx.is_academic?("lreilly@fadi.at")
+true
+
+iex> SwotEx.institution_name("stanford.edu")
+"Stanford University"
+
+iex> SwotEx.institution_name("lreilly@fadi.at")
+"BRG Fadingerstraße Linz, Austria"
+```
+
+## Documentation
+
+The docs can be found at [https://hexdocs.pm/swotex](https://hexdocs.pm/swotex).
+
+
+## License
+
+See [LICENSE](./LICENSE).
