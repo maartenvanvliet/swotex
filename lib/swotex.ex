@@ -87,7 +87,7 @@ defmodule SwotEx do
   end
 
   defp valid_domain?(domain) do
-    case PublicSuffix.registrable_domain(domain) do
+    case registrable_domain(domain) do
       nil ->
         false
 
