@@ -36,7 +36,8 @@ defmodule SwotEx.MixProject do
   defp deps do
     [
       {:public_suffix, "~> 0.6.0"},
-      {:ex_doc, "~> 0.19", only: :dev, runtime: false}
+      {:ex_doc, "~> 0.19", only: :dev, runtime: false},
+      {:credo, "~> 1.1.0", only: [:dev, :test], runtime: false}
     ]
   end
 end
